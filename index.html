@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" data-ember-extension="1">
+    <head>
+        <title>Movie</title>
+        <link href="./assets/bootstrap.min.css" rel="stylesheet">
+        <link href="./assets/react-exercise.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <form id="getMovieList" class="form-horizontal" role="form">  
+                        <div class="panel panel-info">
+                            <div class="panel-heading">
+                                <div class="panel-title">Enter Movie Name</div>
+                            </div>
+                            <div style="padding-top:30px" class="panel-body">                                
+                                <div style="margin-bottom: 25px" class="input-group">
+                                    <span class="input-group-addon"></span>
+                                    <input id="inputMoiveName" type="text" class="form-control" name="moviename" value="" placeholder="Enter Movie Name" />                                        
+                                </div>
+                                <div style="margin-top:10px" class="form-group">
+                                    <div class="col-sm-12 controls">
+                                        <button id="getMovie" href="#" class="btn btn-success">Submit</button>
+                                    </div>
+                                </div> 
+                            </div>                     
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <ul id="moiveList" class="list-group">
+                    
+                    </ul>
+                    <!-- <ul class="list-group">
+                        <li class="list-group-item">
+                            <img src="http://image.tmdb.org/t/p/w185//nBNZadXqJSdt05SHLqgT0HuC5Gm.jpg" />
+                            Movie Title:Spider-Man<span class="badge badge-primary badge-pill">Vote: 7533</span>
+                            <div>Release Date: 2002-05-01</div>
+                            <div class="description">Overview: After being bitten by a genetically altered spider, nerdy high school student Peter Parker is endowed with amazing powers.</div>
+                            <button type="button" class="btn btn-primary">Add to favourites</button>
+                        </li>
+                    </ul> -->
+                </div>
+            </div>
+        </div>
+        <script src="assets/main.js"></script>
+    </body>
+</html>
