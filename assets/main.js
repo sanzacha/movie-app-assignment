@@ -64,6 +64,7 @@ class Movie {
                         results.push(movieData.results[getListId]);
                         localStorage.setItem('myfavmovies', JSON.stringify(results));
                         let getMyFavMovies = localStorage.getItem('myfavmovies');
+                        event.target.style.visibility = 'hidden';
                 });
             } 
         } else {
